@@ -1,31 +1,31 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-		        	<li><a href="#">Digital Ad Ratings</a></li>
-	        		<li><a href="#">Digital Audio Ratings</a></li>
-	        		<li><a href="#">Digital Television Ratings</a></li>
-	        		<li><a href="https://nielsensalesengineering.github.io/dcr-swift-reference/">Digital Content Ratings - Swift</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:">email</a></li>
-	        		<li><a href="https://github.com/nielsensalesengineering">github.com/nielsensalesengineering</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ page.title }}</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>{{ page.title }}</h1>
+        <p>Nielsen Digital Reference Implementations</p>
+      </header>
+      <section>
+{{ content }}
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/NielsenSalesEngineering">NielsenSalesEngineering</a></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
