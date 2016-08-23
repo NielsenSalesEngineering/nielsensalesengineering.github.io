@@ -1,6 +1,3 @@
----
-layout: feed
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
@@ -10,8 +7,8 @@ layout: feed
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://nielsensalesengineering.github.io/blog</id>
 	<author>
-		<name>Hank Quinlan</name>
-		<email>hankquinlanhub@gmail.com</email>
+		<name>Wesley Kincaid</name>
+		<email>wesley.kincaid@nielsen.com</email>
 	</author>
 
 	{% for post in site.posts %}
